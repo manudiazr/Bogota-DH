@@ -1,0 +1,102 @@
+/* font-family: 'Montserrat', sans-serif;-- TITULOS
+font-family: 'Lora', serif;
+font-family: 'Raleway', sans-serif; ---- TEXTO
+font-family: 'Open Sans', sans-serif;
+font-family: 'Lato', sans-serif; */
+body {
+margin: 0;
+font-family: 'Raleway', sans-serif;
+}
+ul a {
+  text-decoration: none;
+  margin: 20px;
+  color: white;
+}
+figure {
+  display: flex;
+  align-items: center;
+  margin-left: 0;
+}
+
+/* .borde {
+  border: 2px solid red;
+} */
+
+.portada {
+  background-image: url(../images/fondo.jpg);
+  background-size: cover;
+  color: white;
+  height: 610px
+}
+.transparencia {
+  background-color: rgb(0, 0, 0,0.5);
+  height: 610px;
+}
+.contenedor {
+    width: 1139px;
+  margin:auto;
+}
+.contenedor h1{
+  font-size: 75px;
+  font-weight: 600;
+  margin: 10px;
+}
+.contenedor .candelaria{
+  color: #ffd25a;
+}
+.header {
+  margin: 0 106px;
+}
+.header, .header ul{
+  display: flex;
+  justify-content: space-between;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.logo {
+  width: 36px;
+  height: 50px;
+}
+.intro {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  height: 470px;
+}
+.intro p {
+  font-family: 'Lora', serif;
+  font-style: italic;
+  font-size: 25px;
+  width: 987px;
+  text-align:right;
+}
+.habitaciones img{
+  width: 305px;
+}
+.fondo {
+  background-image: url(../images/catedral.jpg);
+  background-size:cover;
+  border: 1px solid red;
+  display: flex;
+  justify-content: space-around;
+}
+
+.fondo img{
+  width: 460px;
+  height: 490px;
+  margin: 100px 0;
+  margin-right:106px;
+}
+.vive {
+  width: 575px;
+}
+.vive h2 {
+  font-size: 40px;
+}
+
+.vive p{
+  font-size: 20px;
+}
