@@ -79,7 +79,6 @@ figure {
 .fondo {
   background-image: url(../images/catedral.jpg);
   background-size:cover;
-  border: 1px solid red;
   display: flex;
   justify-content: space-around;
 }
@@ -99,4 +98,34 @@ figure {
 
 .vive p{
   font-size: 20px;
+}
+
+.servicios h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #E25041;
+  margin: 0;
+  height: 93px;
+    color: white;
+  font-size: 48px;
+}
+
+.servicios .cajon {
+  display: flex;
+}
+.cajon{
+  justify-content: space-between;
+}
+.caja {
+  border: 1px solid red;
+  width: 450px;
+}
+.caja ul {
+  width: 2756px;
+  text-align: center;
+  background-size: contain;
+}
+.caja-azul {
+  background-color: #3D8EB9;
 }
