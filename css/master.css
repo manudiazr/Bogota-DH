@@ -98,7 +98,7 @@ figure {
   font-size: 20px;
 }
 
-.servicios h2 {
+.servicios h2, .ofertas h2, .habitaciones h2 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -116,8 +116,7 @@ figure {
   justify-content: space-between;
 }
 .caja {
-  border: 1px solid red;
-  width: 450px;
+    width: 450px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -133,4 +132,56 @@ figure {
 .caja-servicios {
   display: flex;
   width: 336px;
+}
+.ofertas h2 {
+    background-color:#FAAF40;
+}
+.caja-ofertas {
+    display: flex;
+}
+.figura-oferta {
+  background-image: url(../images/oferta.png);
+  background-size: cover;  width: 426px;
+  height: 426px;
+}
+.caja-ofertas h3 {
+  color:#e25041;
+  font-size:45px;
+  font-weight: 700;
+  margin: 0;
+
+}
+.caja-ofertas p {
+  font-family: 'Raleway', sans-serif;
+  font-size: 25px;
+  text-align:right;
+}
+.text-ofertas {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+  justify-content: flex-end;
+  margin-right:100px;
+  width: 574px;
+}
+.busqueda{
+  display: flex;
+  justify-content: center;
+}
+.galeria {
+  display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    position: relative;
+}
+.galeria p {
+  background-color: rgba(79, 83, 93, 0.5);
+  position: absolute;
+  top: 290px;
+  height: 40px;
+  width: 286px;
+  padding-top: 15px;
+  padding-left: 20px;
+  color: white;
 }
