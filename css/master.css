@@ -18,9 +18,9 @@ figure {
   margin-left: 0;
 }
 
-/* .borde {
-  border: 2px solid red;
-} */
+.borde {
+  /* border: 2px solid red; */
+}
 
 .portada {
   background-image: url(../images/fondo.jpg);
@@ -41,9 +41,7 @@ figure {
   font-weight: 600;
   margin: 10px;
 }
-.contenedor .candelaria{
-  color: #ffd25a;
-}
+
 .header {
   margin: 0 106px;
 }
@@ -120,6 +118,9 @@ figure {
 .caja {
   border: 1px solid red;
   width: 450px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 .caja ul {
   width: 2756px;
@@ -128,4 +129,8 @@ figure {
 }
 .caja-azul {
   background-color: #3D8EB9;
+}
+.caja-servicios {
+  display: flex;
+  width: 336px;
 }
