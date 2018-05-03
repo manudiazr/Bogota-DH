@@ -175,12 +175,9 @@ figure {
     align-items: flex-start;
     position: relative;
 }
-.galeria p {
+.precio {
   background-color: rgba(79, 83, 93, 0.5);
-  position: absolute;
-  top: 290px;
   height: 40px;
-  width: 286px;
   padding-top: 15px;
   padding-left: 20px;
   color: white;
