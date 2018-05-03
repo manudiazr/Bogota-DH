@@ -71,7 +71,7 @@ figure {
   width: 987px;
   text-align:right;
 }
-.habitaciones img{
+.habitaciones img, .precios{
   width: 305px;
 }
 .fondo {
@@ -98,7 +98,7 @@ figure {
   font-size: 20px;
 }
 
-.servicios h2, .ofertas h2, .habitaciones h2 {
+.servicios h2, .ofertas h2, .habitaciones h2{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -169,16 +169,42 @@ figure {
   display: flex;
   justify-content: center;
 }
+
+.botones {
+  border: 1px solid red;
+  margin: 20px 0;
+}
+.botones li {
+  display: inline;
+}
+
 .galeria {
-  display: flex;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    position: relative;
+ display: flex;
+ height:558px;
+ flex-wrap: wrap;
+ justify-content: space-around;
+ align-items: flex-start;
+ position: relative;
 }
 .precio {
   background-color: rgba(79, 83, 93, 0.5);
+  position: relative;
+  bottom: 55px;
   height: 40px;
   padding-top: 15px;
   padding-left: 20px;
   color: white;
+}
+.espacio-blanco {
+  font-size: 0;
+}
+.comodin1 {
+  position: relative;
+    left: 506px;
+    bottom: 250px
+}
+.comodin2 {
+  position: relative;
+bottom: 249px;
+left: 170px;
 }
