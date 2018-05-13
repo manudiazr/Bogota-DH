@@ -98,7 +98,7 @@ figure {
   font-size: 20px;
 }
 
-.servicios h2, .ofertas h2, .habitaciones h2, .reservas h2, .mapa h2{
+.servicios h2, .ofertas h2, .habitaciones h2, .mapa h2{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -216,4 +216,49 @@ figure {
   position: relative;
 bottom: 249px;
 left: 170px;
+}
+
+.reservas {
+  background-image: url(../images/teleferico.jpg);
+  background-size: cover;
+}
+
+.reservas h2  {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  height: 93px;
+  color: white;
+  font-size: 48px;
+}
+.reservas p {
+font-family: 'Lora', serif;
+font-style: italic;
+font-size: 17px;
+color: white;
+text-align: center;
+line-height: 26px;
+font-weight:400;
+}
+.reservas form, .reservas textarea {
+  width: 780px;
+}
+
+.formulario-caja{
+  display: flex;
+  justify-content: space-around;
+}
+
+.contenedor label {
+  display: block;
+  color: white;
+
+}
+.parte-1 {
+  display: flex;
+  justify-content: space-between;
+}
+.reservas textarea {
+  display: block;
 }
