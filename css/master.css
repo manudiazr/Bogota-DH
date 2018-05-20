@@ -74,29 +74,49 @@ figure {
 .habitaciones img, .precios{
   width: 305px;
 }
+/* section 2 vive el momento */
 .fondo {
   background-image: url(../images/catedral.jpg);
   background-size:cover;
   display: flex;
   justify-content: space-around;
 }
+.transparencia-2 {
+  background-color: rgba(41, 105, 176,0.4);
+  width: 100%;
+  display: flex;
+  justify-content: center;
 
-.fondo img{
+}
+
+#vive figure, #vive img{
   width: 460px;
   height: 490px;
-  margin: 100px 0;
-  margin-right:106px;
+
 }
+#vive .contenedor {
+  width: 1139px;
+    margin: 37px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
 .vive {
   width: 575px;
+  text-align: right;
 }
 .vive h2 {
-  font-size: 40px;
+  font-size: 48px;
+  font-weight: 600;
 }
 
 .vive p{
-  font-size: 20px;
+  font-size: 17px;
+  color:white;
 }
+/* section 2 vive el momento */
 
 .servicios h2, .ofertas h2, .habitaciones h2, .mapa h2{
   display: flex;
@@ -217,9 +237,9 @@ figure {
 bottom: 249px;
 left: 170px;
 }
-
+/* reservas */
 .reservas {
-  background-image: url(../images/teleferico.jpg);
+  background-image: url(../images/reservas-teleferico.jpg);
   background-size: cover;
 }
 
@@ -262,3 +282,7 @@ font-weight:400;
 .reservas textarea {
   display: block;
 }
+.transparencia-3 {
+  background-color: rgba(34, 34, 34, 0.5);
+}
+/* reservas */
