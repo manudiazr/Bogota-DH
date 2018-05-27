@@ -206,8 +206,48 @@ figure {
   margin: -3px;
   padding: 10px 29px;
 }
-
+/* galeria */
 .galeria {
+  display: grid;
+  grid-template-columns: repeat(4,305px);
+  grid-template-areas: "hab1 hab2 hab3 hab4"
+                       "hab1 hab2 hab5 hab6";
+  grid-gap: 33px 15px;
+  justify-content: space-around;
+  margin-bottom: 63px;
+  grid-auto-rows: 239px;
+}
+}
+
+.hab1{
+grid-area: hab1;
+}
+.hab2{
+  grid-area: hab2;
+}
+.hab3{
+  grid-area: hab3;
+}
+.hab4{
+  grid-area: hab4;
+}
+.hab5{
+  grid-area: hab5;
+}
+.hab6{
+  grid-area: hab6;
+}
+.precio {
+  background-color: rgba(79, 83, 93, 0.5);
+  position: relative;
+  bottom: 58px;
+  height: 40px;
+  padding-top: 15px;
+  padding-left: 20px;
+  color: white;}
+/* galeria */
+
+/* .galeria {
  display: flex;
  height:558px;
  flex-wrap: wrap;
@@ -215,14 +255,7 @@ figure {
  align-items: flex-start;
  position: relative;
 }
-.precio {
-  background-color: rgba(79, 83, 93, 0.5);
-  position: relative;
-  bottom: 55px;
-  height: 40px;
-  padding-top: 15px;
-  padding-left: 20px;
-  color: white;
+
 }
 .espacio-blanco {
   font-size: 0;
@@ -236,12 +269,12 @@ figure {
   position: relative;
 bottom: 249px;
 left: 170px;
-}
+} */
 /* reservas */
 .reservas {
   background-image: url(../images/reservas-teleferico.jpg);
   background-size: cover;
-  height: 534px;
+  height: auto;
 }
 
 .reservas h2  {
@@ -265,17 +298,20 @@ font-weight:400;
 .reservas form, .reservas textarea {
   width: 949px;
   box-sizing: border-box;
+  font-size: 15px;
 }
 
 .formulario-caja{
   display: flex;
   justify-content: space-around;
-  margin-top: 40px;
+  margin-top: 64px;
 }
 
 .contenedor label {
   display: block;
   color: white;
+  margin-top: 15px;
+  margin-bottom: 5px;
 
 }
 .parte-1 {
@@ -285,7 +321,6 @@ font-weight:400;
 .reservas textarea {
   display: block;
   border-radius: 5px;
-  margin: 20px 0;
   height: 155px;
 }
 .transparencia-3 {
@@ -317,5 +352,37 @@ font-weight:400;
   font-size: 20px;
   border: none;
   border-radius: 7px;
+  margin: 20px;
 }
 /* reservas */
+/* mapa */
+.mapa-contenedor{
+  font-size: 0;
+}
+/* mapa */
+/* footer */
+footer{
+  background-color: #2E2E2E;
+  padding: 50px 0;
+}
+.footer {
+  display: flex;
+  justify-content: space-around;
+}
+.footer img {
+  width: 128px;
+  height: 128px;
+}
+.footer h2{
+  color:#F3C649;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+}
+.footer p{
+  color:white;
+  font-family: 'Lato', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+}
+/* footer */
